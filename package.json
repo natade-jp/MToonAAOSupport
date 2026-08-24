@@ -1,0 +1,18 @@
+{
+  "name": "net.natade.mtoon-aao-support",
+  "displayName": "MToon AAO Support",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Adds AAO Merge Material support for the legacy VRM 0.x VRM/MToon shader",
+  "author": {
+    "name": "natade-jp",
+    "url": "https://github.com/natade-jp"
+  },
+  "url": "https://github.com/natade-jp/MToonAAOSupport",
+  "documentationUrl": "https://github.com/natade-jp/MToonAAOSupport#readme",
+  "changelogUrl": "https://github.com/natade-jp/MToonAAOSupport/blob/main/CHANGELOG.md",
+  "license": "MIT",
+  "vpmDependencies": {
+    "com.anatawa12.avatar-optimizer": ">=1.9.17 <2.0.0"
+  }
+}
