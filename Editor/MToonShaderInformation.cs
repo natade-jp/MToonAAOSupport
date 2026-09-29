@@ -33,11 +33,10 @@ namespace MToonAAOSupport
             "_UvAnimMaskTexture"     // UVアニメーションの適用範囲
         };
 
-        /// <summary>Unityエディター初期化後のシェーダー情報登録予約</summary>
+        /// <summary>Unityエディター初期化時のシェーダー情報登録</summary>
         static MToonShaderInformation()
         {
-            // アセンブリ読み込み中の即時実行を避け、次のEditor更新時に登録する
-            EditorApplication.delayCall += Register;
+            Register();
         }
 
         /// <summary>AAOへ提供するシェーダー情報の種類</summary>
